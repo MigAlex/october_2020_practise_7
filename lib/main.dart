@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:october_2020_practise_7/customs/my_modal_bottom_sheet.dart';
-import 'package:october_2020_practise_7/home.dart';
+
+import 'customs/exporter.dart';
+
 
 
 void main() {
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: MyModalBottomSheet(),
+      home: MyCheckbox(),
     );
   }
 }
